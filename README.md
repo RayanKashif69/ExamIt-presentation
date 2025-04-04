@@ -1,6 +1,6 @@
 # Group 16 BlackJack Website
 
-## Our website was built to run on Jekyll, below are the steps to run the website
+- Our website was built to run on Jekyll, below are the steps to run the website
 
 
 ## Prerequisites 
