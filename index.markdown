@@ -56,9 +56,18 @@ title:  ExamIt
   <a href="/features" class="demo-button">Watch Feature Demo</a>
 </div>
 
-
-
 ---
+
+## Development Process and Retrospective
+
+<section class="info-card focus-card">
+  <p>
+    Throughout the development of ExamIt, we followed Agile practices involving iterative sprints, retrospectives, and collaborative planning. This approach allowed us to continuously refine our work and adapt based on feedback. We also experienced firsthand the impact of technical debt, version control collaboration, and teamwork under deadlines.
+  </p>
+  <div class="demo-button-wrapper">
+    <a href="/development" class="demo-button">View Development Page</a>
+  </div>
+</section>
 
 ##  Contributors & Skills Gained
 
@@ -74,23 +83,48 @@ title:  ExamIt
     </ul>
   </div>
 
-  <div class="team-card">
-    <h3>Aydin Ngo</h3>
-    <p></p>
-  </div>
+<div class="team-card focus-card">
+  <h3>Aydin Ngo</h3>
+  <ul>
+    <li>Learned to use Android Studio and Android Views to create XML layouts for mobile applications</li>
+    <li>Worked effectively in an Agile development environment</li>
+    <li>Practiced unit testing using libraries such as JUnit and Espresso</li>
+    <li>Studied and applied various design patterns to write cleaner, maintainable code</li>
+    <li>Developed skills in identifying and fixing SOLID principle violations</li>
+  </ul>
+</div>
 
-  <div class="team-card">
+
+  <div class="team-card focus-card">
     <h3>Kunhao Zhang</h3>
     <p></p>
   </div>
 
-  <div class="team-card">
-    <h3>Dixon</h3>
-    <p></p>
-  </div>
+<div class="team-card focus-card">
+  <h3>Dixon</h3>
+  <ul>
+    <li>Learned to use Android Studio for mobile development</li>
+    <li>Gained experience with Git version control for project collaboration</li>
+    <li>Practiced writing unit tests using JUnit</li>
+    <li>Developed good coding habits by following SOLID principles</li>
+    <li>Encountered and understood technical debt in real-world scenarios</li>
+    <li>Learned how to collaborate effectively with teammates in a team environment</li>
+    <li>Implemented database functionality to support persistent storage</li>
+    <li>Connected the UI with the logic layer to create fully functional features</li>
+  </ul>
+</div>
 
-  <div class="team-card">
-    <h3>Gideon</h3>
-    <p></p>
-  </div>
+
+  <div class="team-card focus-card">
+  <h3>Gideon</h3>
+  <ul>
+    <li>Learned to write clean and efficient code by separating concerns across architecture layers (data, logic, and UI)</li>
+    <li>Developed Android Studio skills, including Activity syntax and designing XML UI layouts using Views and Layouts</li>
+    <li>Handled local data storage by implementing solutions using HSQLSB</li>
+    <li>Gained experience in testing and debugging using Logcat to analyze runtime issues</li>
+    <li>Learned to write unit tests using JUnit, Espresso, and Mockito</li>
+    <li>Practiced Agile sprint planning and applied design sprint methodologies</li>
+    <li>Improved collaboration, communication, and version control workflows using GitLab</li>
+  </ul>
+</div>
 </section>

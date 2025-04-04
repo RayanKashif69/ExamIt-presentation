@@ -124,41 +124,43 @@ h4 {
 .team-cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 2rem;
   justify-content: center;
-  margin-top: 2rem;
+  align-items: stretch; /* makes cards match each other vertically */
 }
 
 .team-card {
   background: #ffffff;
   padding: 1.5rem;
   border-radius: 12px;
-  max-width: 280px;
-  flex: 1 1 250px;
-  text-align: left;
+  width: 300px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s;
+  transition: transform 0.2s ease;
+
+
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 300px;
+
+  min-height: 380px;
 }
+
+
 
 .team-card:hover {
-  transform: translateY(-4px);
-}
-
-.team-card h3 {
-  margin-top: 0;
-  color: #1e88e5;
-}
-
-.team-card p,
-.team-card ul {
-  font-size: 0.95rem;
-  color: #555;
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
 .team-card ul {
-  padding-left: 1.2rem;
+  padding-left: 1.25rem;
   margin: 0.5rem 0 0;
   list-style-type: disc;
+}
+
+.team-card li {
+  margin-bottom: 0.6rem;
+  line-height: 1.5;
 }
 
 .focus-card {
@@ -197,4 +199,172 @@ h4 {
 
 .topbar-btn.gitlab:hover {
   background-color: #c31461;
+}
+
+.info-card {
+  background: #ffffff;
+  border-left: 5px solid #64b5f6;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.focus-card {
+  background: #e3f2fd; /* subtle light blue */
+  border-left: 5px solid #1565c0; /* stronger accent */
+}
+
+.demo-button-wrapper {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.demo-button {
+  background-color: #43a047; /* green */
+  color: white;
+  padding: 0.8rem 1.6rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.demo-button:hover {
+  background-color: #2e7d32;
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.video-section {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #f1f8ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.video-section video {
+  width: 100%;
+  max-height: 500px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.reflection-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reflection-card {
+  background: #ffffff;
+  padding: 1.5rem 2rem;
+  border-left: 5px solid #1976d2;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+  flex: 1 1 360px; /* 👈 allows them to shrink/grow */
+  max-width: 400px;
+  min-width: 280px;
+}
+
+.reflection-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.reflection-card h3 {
+  color: #0d47a1;
+  margin-top: 0;
+}
+
+.reflection-card p {
+  color: #444;
+  line-height: 1.6;
+  font-size: 0.97rem;
+}
+
+.wide-reflection-card {
+  max-width: 1000px;
+  margin: 3rem auto;
+  background: #ffffff;
+  border-left: 6px solid #1565c0;
+  padding: 2rem 2.5rem;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.07);
+}
+
+.wide-reflection-card h2 {
+  margin-top: 0;
+  color: #0d47a1;
+  font-size: 1.6rem;
+}
+
+.wide-reflection-card p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 1.2rem;
+}
+.enhanced-demo {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  background: #f1f8ff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.04);
+  margin-bottom: 2rem;
+}
+
+.enhanced-demo h2 {
+  color: #1565c0;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.demo-intro {
+  font-size: 1.1rem;
+  max-width: 750px;
+  margin: 0 auto 1.5rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.demo-feature-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 auto;
+  font-size: 1.05rem;
+  max-width: 600px;
+  text-align: left;
+}
+
+.demo-feature-list li {
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.demo-video {
+  width: 100%;
+  max-height: 500px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
 }
