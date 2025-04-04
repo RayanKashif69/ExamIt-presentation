@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | ExamIt</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="/" class="logo-text centered-logo">
+      Exam<span class="logo-highlight">It</span>
+    </a>
+    <div class="topbar-buttons">
+      <a href="/development" class="topbar-btn">Development</a>
+      <a href="https://code.cs.umanitoba.ca/comp3350-winter2025/a02-g16-blackjack" target="_blank" class="topbar-btn gitlab">GitLab</a>
+    </div>
+  </div>
+</header>
+
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ExamIt Team</p>
+  </footer>
+
+</body>
+</html>
