@@ -9,4 +9,5 @@ type the following commands in the presentation root folder:
 optionally run to clean the build:
 - `bundle exec jekyll clean`
 
-open a webpage to localhost:4000
+open a webpage and run:
+- localhost:4000
