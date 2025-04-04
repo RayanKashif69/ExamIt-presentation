@@ -97,7 +97,13 @@ title:  ExamIt
 
   <div class="team-card focus-card">
     <h3>Kunhao Zhang</h3>
-    <p></p>
+    <ul>
+      <li>Learned Android Studio and Android application development</li>
+      <li>Learned about tests in Android and JUnit framework</li>
+      <li>Learned about in-memory database</li>
+      <li>Gained more experience working with Git version control system</li>
+      <li>Learned how to better coordinate different parts of development</li>
+  </ul>
   </div>
 
 <div class="team-card focus-card">
